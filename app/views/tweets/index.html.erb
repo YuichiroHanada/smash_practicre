@@ -1,0 +1,15 @@
+<div class="contents row">
+  <% @character.tweets.each do |tweet| %>
+  <%= tweet.name %>
+   
+　　<div class="youtube-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/caIDbjakrjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+   </div>  
+   <%= tweet.text %>
+        
+      
+     
+  <% end %>
+ </div>
+  
